@@ -1,0 +1,30 @@
+$seashell: seashell;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: $seashell;
+    background-color: black;
+    opacity: 0.9;
+    .header {
+        img{
+            height: 50px;
+        }
+        height: 69px;
+        padding: 0 10px;
+        border-bottom: 1px solid $seashell;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        a{
+            opacity: 0.9;
+            color: $seashell;
+            text-decoration: underline;
+        }
+    }
+}
